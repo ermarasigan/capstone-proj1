@@ -1,0 +1,37 @@
+.navbar-default .navbar-brand {
+  color: red;
+  font-family: Lobster, serif;
+  font-size:2em;
+}
+      
+header {
+  background-image: url("images/emmanlalakbay-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background-position: center;
+  }
+}
+
+#myNavbar,
+#myNavbar .dropdown-menu{
+  text-align: right;
+}
+
+header > .navbar {
+  background-color: rgba(255,255,255,0.5);
+}
+
+header > nav > .container-fluid {
+  padding: 10px 10px 0 10px;
+}
+
+/*formatting for burger icon*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: red;
+}

@@ -1,0 +1,105 @@
+/*formatting for PH map Province subpage*/
+
+#ph-map {
+  text-align: center;
+  /*min-width: 240px;*/
+}
+
+/*@media screen and (min-width: 768px) {
+  #ph-map {
+    max-width: 600px;
+  }
+}*/
+
+/*gray*/
+.land { 
+  fill: #CCCCCC;
+  fill-opacity: 1;  
+  stroke: #313130;
+  stroke-opacity: 1;
+  stroke-width:0.5;
+  fill-opacity: 0.5;
+}
+
+/*orange*/
+.land:hover {
+  fill: #f3901b;
+  fill-opacity: 1;
+}
+
+/*yellow*/
+path[title="Batangas"],
+path[title="Cebu"],
+path[title="Leyte"],
+path[title="Benguet"],
+path[title="Cagayan"],
+path[title="Albay"]  
+{
+  fill: #fae014;
+  fill-opacity: 0.3;
+}
+
+/*red*/
+path[title="Laguna"],
+path[title="Masbate"],
+path[title="Bataan"],
+path[title="Ilocos Sur"],
+path[title="Antique"]
+{
+  fill: #dc453a;
+  fill-opacity: 0.3;
+}
+
+/*darkred*/
+path[title="Bulacan"],
+path[title="Bohol"],
+path[title="Tarlac"],
+path[title="Camarines Sur"] 
+{
+  fill: #b43a2a;
+  fill-opacity: 0.3;
+}
+
+/*blue*/
+path[title="Metropolitan Manila"],
+path[title="Samar"],
+path[title="Pangasinan"],
+path[title="Mountain Province"],
+path[title="Aklan"]
+{
+  fill: #4791b6;
+  fill-opacity: 0.3;
+}
+
+/*darkblue*/
+path[title="Quezon"],
+path[title="Pampanga"],
+path[title="Ilocos Norte"],
+path[title="Sorsogon"],
+path[title="Iloilo"]
+{
+  fill: #346faa;
+  fill-opacity: 0.3;
+}
+
+/*purple*/
+path[title="Cavite"],
+path[title="Biliran"],
+path[title="Zambales"],
+path[title="Nueva Ecija"],
+path[title="Capiz"]
+
+{
+  fill: #323781;
+  fill-opacity: 0.3;
+}
+
+/*dark purple*/
+path[title="Rizal"],
+path[title="Palawan"],
+path[title="La Union"],
+path[title="Camarines Norte"] 
+{
+  fill: #2e2b5e;
+  fill-opacity: 0.3;
+}
