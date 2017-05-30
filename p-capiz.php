@@ -10,7 +10,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/_header.css" rel="stylesheet" type="text/css">
-    <link href="css/_ph-map-province.css" rel="stylesheet" type="text/css">
+    <link href="css/province.css" rel="stylesheet" type="text/css">
+    <link href="css/_footer.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />    
 
     <style type="text/css">
@@ -45,7 +46,7 @@
       </div>
     </main>
 
-    
+    <?php include 'partials/_footer.html' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -10,7 +10,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/_header.css" rel="stylesheet" type="text/css">
-    <link href="css/_ph-map-province.css" rel="stylesheet" type="text/css">
+    <link href="css/province.css" rel="stylesheet" type="text/css">
+    <link href="css/_footer.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />    
 
     <style type="text/css">
@@ -36,7 +37,7 @@
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6">
           <h1>Cotabato</h1>
-          <h3>SOCCSKSARGEN Region</h3>
+          <h3>Soccsksargen Region</h3>
           <p>Cotabato derives its name from the Maguindanao word kuta wato (from Malay - "Kota Batu"), meaning "stone fort", referring to the stone fort which served as the seat of Sultan Muhammad Kudarat in what is now Cotabato City. Modern historians have pointed to the Cotabato delta as the medieval location of Toupo, the successor of the Maguindanao/Cotabato Sultanate.</p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
@@ -45,7 +46,7 @@
       </div>
     </main>
 
-    
+    <?php include 'partials/_footer.html' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

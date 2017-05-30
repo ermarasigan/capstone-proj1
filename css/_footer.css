@@ -1,0 +1,33 @@
+/*CSS format for Footer partial*/
+footer {
+	background: rgba(250, 224, 20, 1);
+	/*background: #fae014;*/
+	min-height: 100px;
+	padding: 30px;
+	font-size: 0.8em;
+	box-sizing: border-box;
+	position: relative;
+}
+
+footer > p {
+	margin: 0 50px 0 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+footer > figure {
+	position: absolute;
+	right: 0;
+}
+
+footer > figure > a{
+	font-size: 0;
+}
+
+footer > figure > a > img {
+	display: inline-block;
+	width: 20px;
+	margin: 0 5px;
+	font-size: 0;
+}

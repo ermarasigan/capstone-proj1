@@ -1,8 +1,16 @@
-/*formatting for PH map Province subpage*/
+/*formatting for PH map Home page*/
 
 #ph-map {
   text-align: center;
   /*min-width: 240px;*/
+}
+
+div[class="row"] {
+  background: rgba(71, 145, 182, 0.2);
+}
+
+h1, h3, p {
+  color: #346faa;
 }
 
 /*@media screen and (min-width: 768px) {
@@ -18,7 +26,6 @@
   stroke: #313130;
   stroke-opacity: 1;
   stroke-width:0.5;
-  fill-opacity: 0.5;
 }
 
 /*orange*/
@@ -36,7 +43,6 @@ path[title="Cagayan"],
 path[title="Albay"]  
 {
   fill: #fae014;
-  fill-opacity: 0.3;
 }
 
 /*red*/
@@ -47,7 +53,6 @@ path[title="Ilocos Sur"],
 path[title="Antique"]
 {
   fill: #dc453a;
-  fill-opacity: 0.3;
 }
 
 /*darkred*/
@@ -57,7 +62,6 @@ path[title="Tarlac"],
 path[title="Camarines Sur"] 
 {
   fill: #b43a2a;
-  fill-opacity: 0.3;
 }
 
 /*blue*/
@@ -68,7 +72,6 @@ path[title="Mountain Province"],
 path[title="Aklan"]
 {
   fill: #4791b6;
-  fill-opacity: 0.3;
 }
 
 /*darkblue*/
@@ -79,7 +82,6 @@ path[title="Sorsogon"],
 path[title="Iloilo"]
 {
   fill: #346faa;
-  fill-opacity: 0.3;
 }
 
 /*purple*/
@@ -91,7 +93,6 @@ path[title="Capiz"]
 
 {
   fill: #323781;
-  fill-opacity: 0.3;
 }
 
 /*dark purple*/
@@ -101,5 +102,4 @@ path[title="La Union"],
 path[title="Camarines Norte"] 
 {
   fill: #2e2b5e;
-  fill-opacity: 0.3;
 }

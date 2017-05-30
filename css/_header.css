@@ -1,15 +1,58 @@
+header[class="container-fluid"] {
+  padding: 0;
+  width: 100%;
+} 
+
+.navbar-default > div[class="container"] {
+  padding: 10px 0;
+  /*background-clip: border-box;*/
+  /*margin: 20px 0;*/
+  background-color: #dc453a;
+  width: 100%;
+} 
+
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand {
+  margin: 0;
+}
+
 .navbar-default .navbar-brand {
-  color: red;
+  color: white;
   font-family: Lobster, serif;
   font-size:2em;
 }
+
+nav > .navbar-default {
+  height: 200px;
+}
       
-header {
+/*header {
   background-image: url("images/emmanlalakbay-home.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100px;
+  height: 200px;
+}*/
+
+.container-fluid > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse, 
+.container > .navbar-header, 
+header > .navbar {
+  background-color: #dc453a;
+  /*background-color: green;*/
+  margin: 0;
+}
+
+
+
+.navbar .container,
+.container-fluid,
+header > nav > .container
+/*header > nav > div[class="container"]*/
+ {
+  margin: 0;
+  /*background-clip: padding-box;*/
 }
 
 @media screen and (min-width: 768px) {
@@ -24,7 +67,7 @@ header {
 }
 
 header > .navbar {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,1);
 }
 
 header > nav > .container-fluid {
@@ -33,5 +76,16 @@ header > nav > .container-fluid {
 
 /*formatting for burger icon*/
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: red;
+  background-color: white;
 }
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+  }
+}
+
