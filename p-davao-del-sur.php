@@ -12,7 +12,8 @@
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/province.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />    
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">       
 
     <style type="text/css">
       path[title="Davao del Sur"] {
@@ -35,12 +36,12 @@
 
     <main class="container-fluid">
       <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
           <h1>Davao del Sur</h1>
           <h3>Davao Region</h3>
           <p>As part of the "food bowl" of what is now the province of Davao del Sur, otherwise known as the Padada Valley, the agricultural area south of Santa Cruz,lured many migrants. The province is composed of sandy beaches and outlying islands, agricultural plains and valleys, rainforests, swamps, rolling hills and mountains, including the Philippines' highest peak, Mount Apo.</p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <?php include 'partials/_ph-map.html' ?>
         </div>
       </div>
@@ -49,7 +50,8 @@
     <?php include 'partials/_footer.html' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

@@ -1,13 +1,25 @@
+/*formatting for header partial*/
+
+/*font definitions*/
+@font-face {
+    font-family: "leaguescript";
+    src: url("../fonts/LeagueScriptNumberOne-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "lobster";
+    src: url("../fonts/Lobster.woff") format('woff');
+}
+
+/*sandy header*/
 header[class="container-fluid"] {
   padding: 0;
   width: 100%;
-} 
+}
 
 .navbar-default > div[class="container"] {
   padding: 10px 0;
-  /*background-clip: border-box;*/
-  /*margin: 20px 0;*/
-  background-color: #dc453a;
+  background-color: rgb(253,242,217);
   width: 100%;
 } 
 
@@ -16,31 +28,27 @@ header[class="container-fluid"] {
   margin: 0;
 }
 
+.navbar-default {
+  font-family: bebasbook;
+  font-size: 1.5em;
+}
+
 .navbar-default .navbar-brand {
-  color: white;
-  font-family: Lobster, serif;
-  font-size:2em;
+  font-family: lobster, serif;
+  font-size:1.5em;
+  font-weight: bolder;
 }
 
 nav > .navbar-default {
   height: 200px;
 }
       
-/*header {
-  background-image: url("images/emmanlalakbay-home.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-}*/
-
 .container-fluid > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse, 
 .container > .navbar-header, 
 header > .navbar {
-  background-color: #dc453a;
-  /*background-color: green;*/
+  background-color: rgb(253,242,217);
   margin: 0;
 }
 
@@ -48,11 +56,8 @@ header > .navbar {
 
 .navbar .container,
 .container-fluid,
-header > nav > .container
-/*header > nav > div[class="container"]*/
- {
+header > nav > .container {
   margin: 0;
-  /*background-clip: padding-box;*/
 }
 
 @media screen and (min-width: 768px) {
@@ -75,7 +80,7 @@ header > nav > .container-fluid {
 }
 
 /*formatting for burger icon*/
-.navbar-default .navbar-toggle .icon-bar {
+/*.navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
 
@@ -88,4 +93,4 @@ header > nav > .container-fluid {
     color: white;
   }
 }
-
+*/

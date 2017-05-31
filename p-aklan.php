@@ -12,7 +12,8 @@
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/province.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />    
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">      
 
     <style type="text/css">
       path[title="Aklan"] {
@@ -35,12 +36,12 @@
 
   	<main class="container-fluid">
   		<div class="row">
-  			<div class="col-sm-12 col-md-6 col-lg-6">
+  			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
   				<h1>Aklan</h1>
   				<h3>Western Visayas Region</h3>
   				<p>Aklan became an independent province through Republic Act No. 1414 signed by Philippine President Ramon Magsaysay on April 25, 1956, separating Aklan from Capiz. The province features high geographic diversity, ranging from white sandy beaches, mangroves and mountainous landscapes. Situated within the province is the river Akean, which appears unique due to its "boiling or frothing" appearance.</p>
   			</div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
   				<?php include 'partials/_ph-map.html' ?>
   			</div>
   		</div>
@@ -49,7 +50,8 @@
   	<?php include 'partials/_footer.html' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

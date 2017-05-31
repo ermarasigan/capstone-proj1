@@ -1,33 +1,66 @@
 /*CSS format for Footer partial*/
+
 footer {
-	background: rgba(250, 224, 20, 1);
-	/*background: #fae014;*/
+	background: rgb(253,242,217);
 	min-height: 100px;
-	padding: 30px;
-	font-size: 0.8em;
+	/*font-size: 0.8em;*/
+	padding: 20px;
 	box-sizing: border-box;
 	position: relative;
 }
 
-footer > p {
-	margin: 0 50px 0 0;
+.icons-footer {
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
-footer > figure {
+.icons-footer > a > span {
+	font-family: "ElegantIcons";
+	color: #777;
+	font-size: 2em;
+	padding: 0 5px;
+	text-align: center;
+}
+
+.icons-footer > a:hover {
+    opacity:0.5;
+    display: inline-block;
+	text-decoration: none;
+}
+
+/*.icons-footer > a:visited, 
+.icons-footer > a:link,
+.icons-footer > a:active {
+	text-decoration: none;
+}*/
+
+.text-footer {
 	position: absolute;
-	right: 0;
+	top: 60%;
+	padding: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
 }
 
-footer > figure > a{
-	font-size: 0;
+.text-footer > ul {
+	padding: 0;
+	margin: 0;
 }
 
-footer > figure > a > img {
-	display: inline-block;
-	width: 20px;
-	margin: 0 5px;
-	font-size: 0;
+.text-footer > ul > li {
+	display: block;
+	font-size: 0.5em;
+	font-family: bebasbook;
+	color: #777;
+}
+
+/*bigger fonts for bigger screen*/
+@media screen and (min-width: 768px) {
+  .text-footer > ul > li {
+    font-size: 1em;
+    display: inline-block;
+  }
 }

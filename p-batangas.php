@@ -12,7 +12,8 @@
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/province.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />    
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">    
 
     <style type="text/css">
       path[title="Batangas"] {
@@ -35,12 +36,12 @@
 
   	<main class="container-fluid">
   		<div class="row">
-  			<div class="col-sm-12 col-md-6 col-lg-6">
+  			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
   				<h1>Batangas</h1>
   				<h3>Calabarzon Region</h3>
   				<p>Batangas is one of the most popular tourist destinations near Metro Manila. The term Batangan means a raft which the people used so that they could fish in the nearby Taal Lake. It also meant the numerous logs found in the Calumpang River, the body of water that runs through the northeastern portion of the town and assumes the shape of a tuning fork.</p>
   			</div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
   				<?php include 'partials/_ph-map.html' ?>
   			</div>
   		</div>
@@ -49,7 +50,8 @@
   	<?php include 'partials/_footer.html' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

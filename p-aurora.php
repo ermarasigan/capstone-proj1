@@ -12,7 +12,8 @@
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/province.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />    
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">    
 
     <style type="text/css">
       path[title="Aurora"] {
@@ -35,12 +36,12 @@
 
   	<main class="container-fluid">
   		<div class="row">
-  			<div class="col-sm-12 col-md-6 col-lg-6">
+  			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
   				<h1>Aurora</h1>
   				<h3>Central Luzon Region</h3>
   				<p>Before 1979, Aurora was part of the province of Quezon. Aurora was, in fact, named after Aurora Aragon, the wife of Pres. Manuel L. Quezon, the president of the Philippine Commonwealth, after whom the mother province was named. The province covers a portion of the Sierra Madre mountain range. As such, the elevation is generally steep to very steep and only about 14% of the province's total area is flat.</p>
   			</div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
   				<?php include 'partials/_ph-map.html' ?>
   			</div>
   		</div>
@@ -49,7 +50,8 @@
   	<?php include 'partials/_footer.html' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

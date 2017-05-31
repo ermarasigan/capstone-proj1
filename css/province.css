@@ -1,20 +1,59 @@
 /*formatting for PH map Province subpage*/
 
-#ph-map {
-  text-align: center;
-  /*min-width: 240px;*/
+/*font definition*/
+@font-face {
+  font-family: 'ElegantIcons';
+  src:url('../fonts/ElegantIcons.eot');
+  src:url('../fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ElegantIcons.woff') format('woff'),
+    url('../fonts/ElegantIcons.ttf') format('truetype'),
+    url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
+/*light sand background*/
 div[class="row"] {
-  background: rgba(71, 145, 182, 0.2);
+  background: rgba(253,242,217,0.7)
 }
 
-/*@media screen and (min-width: 768px) {
-  #ph-map {
-    max-width: 600px;
-  }
-}*/
+/*welcome text formatting*/
+h1, h3, p {
+  color: #777;
+  margin: 0;
+}
 
+h1 {
+  padding: 30px 0 0;
+  font-family: "bebasbold";
+  font-size: 3em;
+}
+
+h3 {
+  font-family: "bebasbook";
+  font-size: 1.5em
+}
+
+p {
+  font-family: "bebaslight";
+  font-size: 1em;
+  padding: 20px 0;
+}
+
+/*bigger fonts for bigger screen*/
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 6em;
+  }
+  h3 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 2em;
+  }
+}
+
+/*formatting for map in Province subpages*/
 /*gray*/
 .land { 
   fill: #CCCCCC;
@@ -92,7 +131,6 @@ path[title="Biliran"],
 path[title="Zambales"],
 path[title="Nueva Ecija"],
 path[title="Capiz"]
-
 {
   fill: #323781;
   fill-opacity: 0.3;

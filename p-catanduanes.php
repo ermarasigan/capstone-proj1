@@ -12,7 +12,8 @@
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/province.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />    
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">        
 
     <style type="text/css">
       path[title="Catanduanes"] {
@@ -35,12 +36,12 @@
 
     <main class="container-fluid">
       <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
           <h1>Catanduanes</h1>
           <h3>Bicol Region</h3>
           <p>Catanduanes was a former sub-province of Ambos Camarines in the early 1900s and later of Albay. Catanduanes, is a hispanized term derived from the word tandu, a native beetle and the samdong tree, which were both found in abundance throughout the island. Common reference to katanduan or kasamdongan, meaning a place where the tandu or the samdong tree thrives in abundance, led to the coining of the word Catanduanes.</p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <?php include 'partials/_ph-map.html' ?>
         </div>
       </div>
@@ -49,7 +50,8 @@
     <?php include 'partials/_footer.html' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

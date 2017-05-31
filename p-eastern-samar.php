@@ -12,8 +12,9 @@
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/province.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster" />    
-
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">    
+    
     <style type="text/css">
       path[title="Eastern Samar"] {
         fill: #f3901b;
@@ -35,12 +36,12 @@
 
     <main class="container-fluid">
       <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
           <h1>Eastern Samar</h1>
           <h3>Eastern Visayas Region</h3>
           <p>During his circumnavigation of the globe, Ferdinand Magellan had set foot on the tiny island of Homonhon in the southern part of the province. On March 16, 1521, the area of what is now Eastern Samar is said to be the first Philippine landmass spotted by Magellan and his crew. Eastern Samar, as a province, was created from Samar province through Republic Act No. 4221 on June 19, 1965.</p>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <?php include 'partials/_ph-map.html' ?>
         </div>
       </div>
@@ -49,7 +50,8 @@
     <?php include 'partials/_footer.html' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
