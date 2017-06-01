@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Province - Benguet</title>
+    <title>Gallery - Benguet</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/province.css" rel="stylesheet" type="text/css">
+    <link href="css/gallery.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">        
@@ -37,10 +38,90 @@
   	<main class="container-fluid">
   		<div class="row">
   			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  				<h1>Benguet</h1>
-  				<h3>Cordillera Administrative Region</h3>
-  				<p>The highland province is known as the Salad Bowl of the Philippines due to its huge production of upland vegetables. Situated within the interior of Benguet is the highly urbanized city of Baguio, which is administratively independent from the province.</p>
+  				<h1>Mt Pulag Gallery</h1>
+  				<h3>Kabayan, Benguet</h3>
+
+  				<!-- <div class="container-fluid">
+            <div class="row">
+              <figure class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img class="center-block img-responsive" src="images/pulag1.jpg" alt="pulag summit">
+              </figure>
+            </div>
+            <div class="row">
+              <figure class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <img class="center-block img-responsive" src="images/pulag2.jpg" alt="pulag road">
+              </figure>
+            </div>
+            <div class="row">
+              <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <img class="center-block img-responsive" src="images/pulag3.jpg" alt="pulag solo">
+              </figure>
+            </div>
+          </div> -->
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="thumbnail">
+                  <a href="images/pulag1.jpg" target="_blank">
+                    <img src="images/pulag1.jpg" alt="pulag summit" style="width:100%">
+                    <div class="caption text-center">
+                      <p>View at the Mt Pulag summit, highest point in Luzon</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="thumbnail">
+                  <a href="images/pulag2.jpg" target="_blank">
+                    <img src="images/pulag2.jpg" alt="pulag road" style="width:100%">
+                    <div class="caption text-center">
+                      <p>Yellow brick road to peak 3</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                  <a href="images/pulag3.jpg" target="_blank">
+                    <img src="images/pulag3.jpg" alt="pulag mossy" style="width:100%">
+                    <div class="caption text-center">
+                      <p>The mossy forest</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                  <a href="images/pulag4.jpg" target="_blank">
+                    <img src="images/pulag4.jpg" alt="pulag solo" style="width:100%">
+                    <div class="caption text-center">
+                      <p>Made it to the top!</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="thumbnail">
+                  <a href="images/pulag5.jpg" target="_blank">
+                    <img src="images/pulag5.jpg" alt="pulag summit" style="width:100%">
+                    <div class="caption text-center">
+                      <p>Lenticular clouds hover above like UFO's</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
   			</div>
+
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
   				<?php include 'partials/_ph-map.html' ?>
   			</div>
@@ -54,5 +135,8 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- additional javascript to enable dropdown submenu -->
+    <script src="js/submenu.js"></script>  
   </body>
 </html>

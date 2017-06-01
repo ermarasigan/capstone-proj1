@@ -59,5 +59,8 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- additional javascript to enable dropdown submenu -->
+    <script src="js/submenu.js"></script>  
   </body>
 </html>

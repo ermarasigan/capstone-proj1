@@ -1,15 +1,7 @@
 /*formatting for PH map Province subpage*/
 
-/*font definition*/
-@font-face {
-  font-family: 'ElegantIcons';
-  src:url('../fonts/ElegantIcons.eot');
-  src:url('../fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/ElegantIcons.woff') format('woff'),
-    url('../fonts/ElegantIcons.ttf') format('truetype'),
-    url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
-  font-weight: normal;
-  font-style: normal;
+html, body {
+  overflow-x: hidden;
 }
 
 /*light sand background*/

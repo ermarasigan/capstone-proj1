@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Province - Benguet</title>
+    <title>Journal - Benguet</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/province.css" rel="stylesheet" type="text/css">
+    <link href="css/journal.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">        
-
     <style type="text/css">
       path[title="Benguet"] {
         fill: #f3901b;
@@ -22,37 +22,6 @@
         stroke: gold;
         stroke-width:1;
       }
-
-      h1 {
-        padding: 30px 0px 30px;
-        font-family: "HomemadeApple";
-        font-size: 2em;
-      }
-
-      h3 {
-        font-family: "HomemadeApple";
-        font-size: 1em
-      }
-
-      p {
-        font-family: "HomemadeApple";
-        font-size: 0.5em;
-        padding: 20px 0;
-      }
-
-      /*bigger fonts for bigger screen*/
-      @media screen and (min-width: 768px) {
-        h1 {
-          font-size: 4em;
-        }
-        h3 {
-          font-size: 2em;
-        }
-        p {
-          font-size: 1em;
-        }
-      }
-
     </style>
      
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -97,5 +66,8 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- additional javascript to enable dropdown submenu -->
+    <script src="js/submenu.js"></script>  
   </body>
 </html>

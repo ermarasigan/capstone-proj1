@@ -1,17 +1,6 @@
 /*formatting for header partial*/
 
-/*font definitions*/
-@font-face {
-    font-family: "leaguescript";
-    src: url("../fonts/LeagueScriptNumberOne-webfont.woff") format('woff');
-}
-
-@font-face {
-    font-family: "lobster";
-    src: url("../fonts/Lobster.woff") format('woff');
-}
-
-/*sandy header*/
+/*full width header*/
 header[class="container-fluid"] {
   padding: 0;
   width: 100%;
@@ -21,6 +10,16 @@ header[class="container-fluid"] {
   padding: 10px 0;
   background-color: rgb(253,242,217);
   width: 100%;
+}
+
+/*light sand background*/
+.nav .dropdown .dropdown-menu {
+  background: rgba(253,242,217,0.7)
+} 
+
+/*sandy background*/
+.nav .dropdown .dropdown-menu .dropdown-submenu .dropdown-menu{
+  background: rgba(253,242,217,1)
 } 
 
 .navbar>.container .navbar-brand, 
@@ -52,8 +51,6 @@ header > .navbar {
   margin: 0;
 }
 
-
-
 .navbar .container,
 .container-fluid,
 header > nav > .container {
@@ -79,18 +76,11 @@ header > nav > .container-fluid {
   padding: 10px 10px 0 10px;
 }
 
+.dropdown-submenu {
+    position: relative;
+}
+
 /*formatting for burger icon*/
-/*.navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #777;
 }
-
-.navbar-default .navbar-nav>li>a {
-  color: white;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: white;
-  }
-}
-*/

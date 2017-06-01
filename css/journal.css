@@ -1,0 +1,35 @@
+/*formatting for journal script*/
+
+html, body {
+  overflow-x: hidden;
+}
+
+h1 {
+  padding: 30px 0px 30px;
+  font-family: "HomemadeApple";
+  font-size: 2em;
+}
+
+h3 {
+  font-family: "HomemadeApple";
+  font-size: 1em
+}
+
+p {
+  font-family: "HomemadeApple";
+  font-size: 1em;
+  padding: 20px 0;
+}
+
+/*bigger fonts for bigger screen*/
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+}

@@ -14,7 +14,7 @@
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">    
-     
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,7 +46,9 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
 
+    <!-- additional javascript to enable dropdown submenu -->
+    <script src="js/submenu.js"></script>  
   </body>
 </html>

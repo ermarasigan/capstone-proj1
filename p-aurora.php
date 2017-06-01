@@ -15,6 +15,7 @@
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">    
 
+
     <style type="text/css">
       path[title="Aurora"] {
         fill: #f3901b;
@@ -54,5 +55,8 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- additional javascript to enable dropdown submenu -->
+    <script src="js/submenu.js"></script>  
   </body>
 </html>

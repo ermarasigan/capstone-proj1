@@ -1,37 +1,52 @@
 /*font definitions*/
-@font-face {
-    font-family: "trocchi";
-    src: url("../fonts/Trocchi.otf") format('opentype');
-  }
 
+/*font for the navigation brand*/
+@font-face {
+    font-family: "lobster";
+    src: url("../fonts/Lobster.woff") format('woff');
+}
+
+/*font for journal script*/
+@font-face {
+	font-family: "HomemadeApple";
+	src: url("../fonts/HomemadeApple.ttf") format('truetype');
+}
+
+/*font for menu and general text*/
 @font-face {
     font-family: "bebasbold";
     src: url("../fonts/BebasNeue Bold.otf") format('opentype');
   }
-
 @font-face {
     font-family: "bebasbook";
     src: url("../fonts/BebasNeue Book.otf") format('opentype');
   }
-
 @font-face {
     font-family: "bebasregular";
     src: url("../fonts/BebasNeue Regular.otf") format('opentype');
   }
-
 @font-face {
     font-family: "bebasthin";
     src: url("../fonts/BebasNeue Thin.otf") format('opentype');
   }
-
 @font-face {
     font-family: "bebaslight";
     src: url("../fonts/BebasNeue Light.otf") format('opentype');
   }
 
+
+/*css code for Elegant Icons (elegantthemes.com)*/
+
+/*font icon definition*/
 @font-face {
-	font-family: "HomemadeApple";
-	src: url("../fonts/HomemadeApple.ttf") format('truetype');
+  font-family: 'ElegantIcons';
+  src:url('../fonts/ElegantIcons.eot');
+  src:url('../fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ElegantIcons.woff') format('woff'),
+    url('../fonts/ElegantIcons.ttf') format('truetype'),
+    url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
