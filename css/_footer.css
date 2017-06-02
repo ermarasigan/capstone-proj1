@@ -1,5 +1,6 @@
 /*CSS format for Footer partial*/
 
+/*sand colored background*/
 footer {
 	background: rgb(253,242,217);
 	min-height: 100px;
@@ -8,13 +9,13 @@ footer {
 	position: relative;
 }
 
+/*formatting for social media icons*/
 .icons-footer {
 	position: absolute;
 	top: 20%;
 	left: 50%;
 	transform: translateX(-50%);
 }
-
 .icons-footer > a > span {
 	font-family: "ElegantIcons";
 	color: #777;
@@ -22,19 +23,18 @@ footer {
 	padding: 0 5px;
 	text-align: center;
 }
-
 .icons-footer > a:hover {
     opacity:0.5;
     display: inline-block;
 	text-decoration: none;
 }
-
 .icons-footer > a:visited, 
 .icons-footer > a:link,
 .icons-footer > a:active {
 	text-decoration: none;
 }
 
+/*formatting for footer text*/
 .text-footer {
 	position: absolute;
 	top: 60%;
@@ -43,12 +43,10 @@ footer {
 	transform: translateX(-50%);
 	text-align: center;
 }
-
 .text-footer > ul {
 	padding: 0;
 	margin: 0;
 }
-
 .text-footer > ul > li {
 	display: block;
 	font-size: 0.5em;

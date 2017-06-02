@@ -1,5 +1,6 @@
 /*formatting for About page*/
 
+/*this is a fix for white space in right side*/
 html, body {
   overflow-x: hidden;
 }
@@ -14,13 +15,11 @@ h1, p {
   color: white;
   margin: 0;
 }
-
 h1 {
   font-family: "bebasbold";
   font-size: 3em;
   text-align: center;
 }
-
 p {
   font-family: "homemadeapple";
   font-size: 1em;
@@ -38,14 +37,10 @@ p {
   }
 }
 
-figure {
+/*formatting for profile pic*/
+div a figure {
   padding: 30px;
 }
-
-#aboutbox {
-  padding: 20px;
-}
-
 #profilepic {
   width: 60%;
   height: 60%; 
@@ -58,6 +53,11 @@ figure {
     width: 100%;
     height: 100%;
   } 
+}
+
+/*about box padding*/
+#aboutbox {
+  padding: 20px;
 }
 
 /*About box background*/

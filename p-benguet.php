@@ -9,12 +9,15 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- css formatting separated by sections -->
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/province.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <!-- icon on browser -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">        
 
+    <!-- formatting unique to this province -->
     <style type="text/css">
       path[title="Benguet"] {
         fill: #f3901b;
@@ -22,6 +25,9 @@
         stroke: gold;
         stroke-width:1;
       }
+      #visitedbox {
+        background-image: url("images/benguet.jpg");
+      }   
     </style>
      
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -32,21 +38,50 @@
     <![endif]-->
   </head>
   <body>
+    <!-- partial containing the header -->
   	<?php include 'partials/_header.html' ?>
 
   	<main class="container-fluid">
   		<div class="row">
-  			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  				<h1>Benguet</h1>
-  				<h3>Cordillera Administrative Region</h3>
-  				<p>The highland province is known as the Salad Bowl of the Philippines due to its huge production of upland vegetables. Situated within the interior of Benguet is the highly urbanized city of Baguio, which is administratively independent from the province.</p>
+        <!-- province description -->
+  			<div id="visitedbox" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  				<h1 class="strokeme">Benguet</h1>
+  				<h3 class="strokeme">Cordillera Administrative Region</h3>
+  				<p class="strokeme">The highland province is known as the Salad Bowl of the Philippines due to its huge production of upland vegetables. Situated within the interior of Benguet is the highly urbanized city of Baguio, which is administratively independent from the province.</p>
+
+          <!-- links to gallery, itinerary, journal -->
+          <div class="container-fluid">
+            <div class="row" id="province-links">
+              <a href="g-benguet.php" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="text-center strokeme">
+                  <span class="icon_images"></span>
+                  Mt Pulag Gallery
+                </div>
+              </a>
+              <a href="i-benguet.php" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="text-center strokeme">
+                  <span class="icon_calendar"></span>
+                  Mt Pulag Itinerary
+                </div>
+              </a>
+              <a href="j-benguet.php" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="text-center strokeme">
+                  <span class="icon_pencil-edit_alt"></span>
+                  Mt Pulag Journal
+                </div>
+              </a>
+            </div>
+          </div>
   			</div>
+
+        <!-- partial containing the map -->
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
   				<?php include 'partials/_ph-map.html' ?>
   			</div>
   		</div>
   	</main>
 
+    <!-- partial containing the footer -->
   	<?php include 'partials/_footer.html' ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

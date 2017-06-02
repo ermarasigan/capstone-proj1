@@ -1,9 +1,11 @@
 /*formatting for journal script*/
 
+/*this is a fix for white space in right side*/
 html, body {
   overflow-x: hidden;
 }
 
+/*formatting for journal script*/
 h1 {
   padding: 30px 0px 30px;
   font-family: "HomemadeApple";
@@ -12,7 +14,7 @@ h1 {
 
 h3 {
   font-family: "HomemadeApple";
-  font-size: 1em
+  font-size: 1em;
 }
 
 p {

@@ -9,10 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- css formatting separated by sections -->
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/home.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <!-- icon on browser -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">    
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,8 +26,10 @@
   </head>
 
   <body>
+    <!-- partial containing the header -->
     <?php include 'partials/_header.html' ?>
 
+    <!-- welcome box for homepage -->
   	<main class="container-fluid">
   		<div class="row">
   			<div id="welcomebox" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
@@ -34,12 +38,15 @@
   				<p>Join me on my quest to reach all corners of the Philippines
           <br> Click a province to start</p>
   			</div>
+
+        <!-- partial containing the map -->
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
   				<?php include 'partials/_ph-map.html' ?>
   			</div>
   		</div>
   	</main>
 
+    <!-- partial containing the footer -->
     <?php include 'partials/_footer.html' ?>  	
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -41,25 +41,7 @@
   				<h1>Mt Pulag Gallery</h1>
   				<h3>Kabayan, Benguet</h3>
 
-  				<!-- <div class="container-fluid">
-            <div class="row">
-              <figure class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <img class="center-block img-responsive" src="images/pulag1.jpg" alt="pulag summit">
-              </figure>
-            </div>
-            <div class="row">
-              <figure class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                <img class="center-block img-responsive" src="images/pulag2.jpg" alt="pulag road">
-              </figure>
-            </div>
-            <div class="row">
-              <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <img class="center-block img-responsive" src="images/pulag3.jpg" alt="pulag solo">
-              </figure>
-            </div>
-          </div> -->
-
-          <div class="container-fluid">
+  				<div class="container-fluid">
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="thumbnail">
@@ -110,7 +92,7 @@
               <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <div class="thumbnail">
                   <a href="images/pulag5.jpg" target="_blank">
-                    <img src="images/pulag5.jpg" alt="pulag summit" style="width:100%">
+                    <img src="images/pulag5.jpg" alt="pulag lenticular clouds" style="width:100%">
                     <div class="caption text-center">
                       <p>Lenticular clouds hover above like UFO's</p>
                     </div>

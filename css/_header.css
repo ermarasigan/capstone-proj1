@@ -6,18 +6,17 @@ header[class="container-fluid"] {
   width: 100%;
 }
 
-.navbar-default > div[class="container"] {
-  padding: 10px 0;
-  background-color: rgb(253,242,217);
-  width: 100%;
-}
-
 /*light sand background*/
 .nav .dropdown .dropdown-menu {
   background: rgba(253,242,217,0.7)
 } 
 
-/*sandy background*/
+/*sand colored background*/
+.navbar-default > div[class="container"] {
+  padding: 10px 0;
+  background-color: rgb(253,242,217);
+  width: 100%;
+}
 .nav .dropdown .dropdown-menu .dropdown-submenu .dropdown-menu{
   background: rgba(253,242,217,1)
 } 

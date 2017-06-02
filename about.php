@@ -9,10 +9,12 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- css formatting separated by sections -->
     <link href="css/_header.css" rel="stylesheet" type="text/css">
     <link href="css/about.css" rel="stylesheet" type="text/css">
     <link href="css/_footer.css" rel="stylesheet" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <!-- icon on browser -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">    
      
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,6 +26,7 @@
   </head>
 
   <body>
+    <!-- partial containing the header -->
     <?php include 'partials/_header.html' ?>
 
   	<main class="container-fluid">
@@ -31,10 +34,15 @@
   			<div id="aboutbox" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
           <div class="container-fluid">
             <div class="row">
-              <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <img class="center-block img-responsive" id = "profilepic" src="images/square-profile.jpg" alt="profile pic">
-              </figure>
+              <!-- links for demo purpose -->
+              <a href="https://www.wdl.org/en/item/10089/" target="blank_">
+                <!-- profile picture -->
+                <figure class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <img class="center-block img-responsive" id = "profilepic" src="images/square-profile.jpg" alt="profile pic">
+                </figure>
+              </a>
 
+              <!-- self description -->
               <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
     				    <h1>Why I do what I do</h1>
     				    <p>Hi! I'm Emman, a casual manlalakbay (traveller), mobile photography enthusiast and aspiring writer. I write code for a living and write journals to feel alive. I travel not to escape life but for life not to escape me. </p>
@@ -46,12 +54,15 @@
             </div>
           </div>
   			</div>
+
+        <!-- partial containing the map -->
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
   				<?php include 'partials/_ph-map.html' ?>
   			</div>
   		</div>
   	</main>
 
+    <!-- partial containing the footer -->
     <?php include 'partials/_footer.html' ?>  	
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -179,6 +179,8 @@
               </table>
             </div>
 
+            <p>(Itinerary by instagram.com/theweekendbyaheros)</p>
+
           </div>
         </div>
 
